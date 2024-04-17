@@ -1,0 +1,330 @@
+.qtyBtn {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  margin: 10px;
+}
+.itemDiv {
+  display: flex;
+  flex-direction: row;
+  margin: 8px;
+  padding: 5px 10px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ingredientBtns {
+  border: 4px white solid;
+  border-radius: 15px;
+  padding: 15px 0;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  border: 1px white solid;
+
+  overflow: hidden;
+}
+
+.cmImg {
+  border: 4px white solid;
+  border-radius: 15px;
+  height: 100%;
+}
+
+.index {
+  padding: 0 10px;
+}
+
+.totalCost {
+  padding: 5px;
+}
+
+.title {
+  color: #ffa826;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  border: 4px white solid;
+  border-radius: 15px;
+  margin: 20px 0px;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.ingredientButton {
+  background-color: #ffa826;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+}
+.summitButton {
+  background-color: #ffa826;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px white;
+  border: white 2px solid;
+  width: 35%;
+  height: 25px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border: #055154 solid 2px;
+  width: 100%;
+  height: 100%;
+  background-image: url(./black-wall-texture.jpg);
+  font-size: 20px;
+  font-family: Avenir;
+  color: whitesmoke;
+}
+.buttonSection {
+  width: 45%;
+  height: 100%;
+  text-align: center;
+  margin: 10px;
+}
+.cmTitile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cmDiv {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+.burger {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.burgertop {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("burgertop.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.burgerbottom {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("burgerbottom.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: -30px;
+
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Filet-O-Fish {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("fish.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Mushroom {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("Mushroom.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Shrimp-Cake {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("Shrimp-Cake.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Grilled-Chicken {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("GrilledChicken.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Patties {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("patty.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+  bottom: -10px; Adjust this value to control the amount of overlap */
+}
+
+.img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.Cheese {
+  width: 220px;
+  height: 40px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("cheese.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.cheeses {
+  background: #ffd774;
+  width: 18px;
+  height: 40px;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  left: 160px;
+}
+
+.Lettuce {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("lettuce.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+  bottom: -10px; Adjust this value to control the amount of overlap */
+}
+
+.Tomato {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("tomato.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Teriyaki-chicken {
+  width: 220px;
+  height: 50px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("teriyaki-chicken.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.ingredient-text {
+  display: none;
+}
+.ingredient-text {
+  color: #055154;
+  width: 300px;
+  font-size: 16px;
+  display: flex;
+  margin-left: 250px;
+  display: none;
+}
+
+@media screen and (max-width: 660px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .btn {
+    overflow: visible;
+  }
+
+  .buttonSection {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .itemDiv {
+    color: black;
+    margin: 10px 40px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .ingredientButton {
+    border-radius: 5px;
+    transform: scale(1.4);
+  }
+
+  .ingredientBtns {
+    margin: 0 5px;
+  }
+
+  .title {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .index {
+    padding: 0 20px;
+  }
+
+  .cmDiv {
+    width: 100%;
+    margin: 0;
+  }
+
+  .cmImg {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    padding: 0;
+  }
+
+  .burger {
+    padding-bottom: 20px;
+  }
+}
