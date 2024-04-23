@@ -1,0 +1,387 @@
+.bigContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(./background.jpg);
+  padding-bottom: 2%;
+  margin-bottom: 40px;
+}
+
+.bigTitle {
+  width: 100%;
+  padding: 2% 0 4% 0;
+  display: flex;
+  justify-content: center;
+  font-size: 36pt;
+  font-weight: bolder;
+  color: #ffa826;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  font-family: Avenir;
+  color: white;
+  padding-bottom: 2%;
+}
+
+.buttonSection {
+  width: 45%;
+  text-align: center;
+}
+
+.title {
+  color: #ffa826;
+  font-size: 24pt;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 0 0 3px black, 0 0 5px black;
+  padding-bottom: 2%;
+}
+
+.allIngredientsContainer {
+  all: unset;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.ingredientContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 4px 1px 7px 2px rgba(0, 0, 0, 0.5) inset;
+  color: black;
+  padding: 1%;
+  margin: 1%;
+}
+
+.ingredientName {
+  width: 40%;
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.btn {
+  width: 35%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  border-radius: 40px;
+  border: #ebebeb 0.5px solid;
+  padding: 0.5%;
+}
+
+.ingredientButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 0;
+  width: 33px;
+  height: 33px;
+  border-radius: 8px;
+  font-size: 12pt;
+  background-color: unset;
+  color: #ffa826;
+  font-size: 20pt;
+}
+
+.ingredientButton:hover {
+  background-color: #ebebeb;
+  border-radius: 40px;
+}
+
+.ingredientButton:active {
+  background-color: #c6c6c6;
+  border-radius: 40px;
+}
+
+.atcBtnContainer {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summitButton {
+  width: 300px;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 6px 6px 10px 1px rgba(0, 0, 0, 0.15);
+  border: 0px;
+  font-size: 12pt;
+  height: 33.6px;
+  background-color: #ffa826;
+}
+
+.cmDiv {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+
+.totalCost {
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  font-size: 14pt;
+  font-weight: 500;
+}
+
+.costNum {
+  font-size: 24pt;
+  font-weight: bold;
+  color: #ffa826;
+}
+
+.burger {
+  width: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.burgertop {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("burgertop.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.burgerbottom {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("burgerbottom.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: -40px;
+  margin-bottom: 30px;
+
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Filet-O-Fish {
+  width: 300px;
+  height: 60px;
+  position: relative;
+  margin-left: -33px;
+  margin-right: auto;
+  background-image: url("fish.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Mushroom {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("Mushroom.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Shrimp-Cake {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("Shrimp-Cake.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Grilled-Chicken {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("GrilledChicken.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+    bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Patties {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("patty.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+  bottom: -10px; Adjust this value to control the amount of overlap */
+}
+
+.Cheese {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("cheese.jpeg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 200px;
+}
+
+.Lettuce {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("lettuce.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  /* top: -30px;
+  bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Avocado {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("avocado.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 500px;
+  /* top: -30px;
+  bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Onion {
+  width: 200px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("onion.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  border-radius: 500px;
+  /* top: -30px;
+  bottom: -10px; Adjust this value to control the amount of overlap */
+}
+.Tomato {
+  width: 220px;
+  height: 60px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("tomato.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+.Teriyaki-chicken {
+  width: 220px;
+  height: 50px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("teriyaki-chicken.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 950px) {
+  .ingredientName {
+    font-size: 12pt;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .wrapper {
+    flex-direction: column;
+  }
+
+  .buttonSection {
+    width: 100%;
+    padding-bottom: 8%;
+  }
+
+  .title {
+    font-size: 22pt;
+    padding: 3%;
+    border-top: 1px white solid;
+    border-bottom: 1px white solid;
+  }
+
+  .ingredientContainer {
+    width: 100%;
+    flex-direction: column;
+    background-color: unset;
+    box-shadow: unset;
+    color: white;
+  }
+  .ingredientName,
+  .btn {
+    width: 60%;
+    border: unset;
+    font-size: 18pt;
+    padding: 2%;
+  }
+
+  .ingredientButton {
+    width: 50px;
+    height: 50px;
+    border: unset;
+    border-radius: 8px;
+    background-color: #ffa826;
+    color: white;
+  }
+
+  .ingredientButton:hover,
+  .ingredientButton:active {
+    width: 50px;
+    height: 50px;
+    border: unset;
+    border-radius: 8px;
+    background-color: #fac575;
+    color: white;
+  }
+
+  .cmDiv {
+    width: 100%;
+  }
+
+  .burger {
+    height: unset;
+  }
+
+  .totalCost {
+    width: 60%;
+  }
+}

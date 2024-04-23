@@ -1,0 +1,129 @@
+{
+  "Handmade Burger": [
+    {
+      "product": "Classic Burger",
+      "price": 25,
+      "ingredient": ["Cheese", "Lettuce", "Sauce", "Tomato"],
+      "image": "https://i.pinimg.com/originals/95/aa/34/95aa34722ae9ea7e8faa874e5d24ebab.png"
+    },
+    {
+      "product": "BBQ Burger",
+      "price": 30,
+      "ingredient": ["Cheese", "Lettuce", "Sauce"],
+      "image": "https://smashburger.com/cdn-cgi/image/format=auto,width=640,quality=75/https://sbprod-web-assets.s3.us-west-2.amazonaws.com/turkey_Swiss_Mushroom_b9ace8e8c2.png"
+    },
+    {
+      "product": "Chicken Burger",
+      "price": 30,
+      "ingredient": ["Lettuce", "Sauce", "Tomato"],
+      "image": "https://pngimg.com/uploads/burger_sandwich/burger_sandwich_PNG4157.png"
+    },
+    {
+      "product": "Fish Burger",
+      "price": 30,
+      "ingredient": ["Cheese", "Lettuce", "Sauce", "Onino"],
+      "image": "https://www.mosburger.com.au/website-images/Crispy_Fish_Burger.png"
+    },
+    {
+      "product": "Monster Burger",
+      "price": 45,
+      "ingredient": ["Cheese", "Lettuce", "Sauce", "Tomato"],
+      "image": "https://i.ibb.co/HG7BHH9/pngtree-juicy-burgers-with-a-transparent-background-png-image-9002761.png"
+    },
+    {
+      "product": "Veggie Burger",
+      "price": 25,
+      "ingredient": ["Lettuce", "Sauce", "Tomato", "Onino"],
+      "image": "https://i.pinimg.com/originals/97/da/26/97da268ca85129275b94af124e9862ed.png"
+    },
+    {
+      "product": "Mushroom Burger",
+      "price": 35,
+      "ingredient": ["Cheese", "Lettuce", "Sauce", "Tomato"],
+      "image": "https://i.ibb.co/HNn17fL/mushroom-Burger.png"
+    },
+    {
+      "product": "Avocado Burger",
+      "price": 35,
+      "ingredient": ["Cheese", "Lettuce", "Sauce", "Tomato"],
+      "image": "https://i.ibb.co/qdsBWnp/avoca.png"
+    }
+  ],
+  "Fries": [
+    {
+      "product": "French Fries",
+      "price": 15,
+      "ingredient": ["Salt"],
+      "image": "https://static.vecteezy.com/system/resources/previews/025/064/780/non_2x/french-fries-with-ai-generated-free-png.png"
+    },
+    {
+      "product": "Crispy Chicken Wing",
+      "price": 30,
+      "ingredient": ["Spicy"],
+      "image": "https://static.vecteezy.com/system/resources/previews/024/724/517/large_2x/hot-and-crispy-fried-chicken-isolated-on-transparent-background-fresh-pieces-of-crispy-fried-chicken-fast-food-generative-ai-free-png.png"
+    },
+    {
+      "product": "Chicken Nuggets",
+      "price": 25,
+      "ingredient": ["Spicy"],
+      "image": "https://w7.pngwing.com/pngs/362/843/png-transparent-chicken-nuggets-crispy-fried-chicken-chicken-nugget-kfc-chicken-fingers-fried-chicken-food-baking-recipe.png"
+    }
+  ],
+  "Salad": [
+    {
+      "product": "Garden Salad",
+      "price": 20,
+      "ingredient": ["Sauce"],
+      "image": "https://www.solfoods.com/wp-content/uploads/2016/07/Salad-660x413.png"
+    },
+    {
+      "product": "Caesar Salad",
+      "price": 25,
+      "ingredient": ["Sauce"],
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgiTxuekxqgBA2BkWHRa-JVaxaXsdRvweNDXCrOJmQZg&s"
+    },
+    {
+      "product": "Greek salad",
+      "price": 25,
+      "ingredient": ["Sauce"],
+      "image": "https://chilihousejo.com/wp-content/uploads/2015/07/greeksalad.png"
+    }
+  ],
+  "Drinks": [
+    {
+      "product": "Coke (Can)",
+      "price": 10,
+      "ingredient": ["Ice"],
+      "type": "Drinks",
+      "image": "https://dwglogo.com/wp-content/uploads/2016/03/1500px_Coca_Cola_logo.png"
+    },
+    {
+      "product": "Coke Zero (Can)",
+      "price": 10,
+      "ingredient": ["Ice"],
+      "type": "Drinks",
+      "image": "https://olo-images-live.imgix.net/5c/5c4afd0a8dac4038a3e179e098aa5200.jpg?auto=format%2Ccompress&q=60&cs=tinysrgb&w=528&h=352&fit=fill&fm=png32&bg=transparent&s=9f1bfae1604e86097c9abe2694c3eb9d"
+    },
+    {
+      "product": "Sprite (Can)",
+      "price": 10,
+      "ingredient": ["Ice"],
+      "type": "Drinks",
+      "image": "https://pngfre.com/wp-content/uploads/Sprite-13.png"
+    },
+    {
+      "product": "Fanta (Can)",
+      "price": 10,
+      "ingredient": ["Ice"],
+      "type": "Drinks",
+      "image": "https://distributionjjcandy.com/cdn/shop/collections/FANTA_LOGO.png?v=1674152549&width=2048"
+    },
+    {
+      "product": "Schweppes (Can)",
+      "price": 10,
+      "ingredient": ["Ice"],
+      "type": "Drinks",
+      "image": "https://i.pinimg.com/originals/42/38/3e/42383eda3fabf6470ca23ae3faa64363.png"
+    }
+  ]
+}

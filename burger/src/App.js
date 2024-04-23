@@ -1,14 +1,12 @@
-import NavBar from "./compotnets/NavBar";
-import NavBar3 from "./compotnets/NavBar3";
 import { Routes, Route } from "react-router-dom";
-import Menu from "./compotnets/Menu";
-import Home from "./compotnets/Home";
-import Footer from "./compotnets/Footer";
-import BurgerCm from "./compotnets/burgerCm";
-import CartCheckPay from "./compotnets/CartCheckPay";
+import Menu from "./component/Menu";
+import Home from "./component/Home";
+import Footer from "./component/Footer";
+import BurgerCm from "./component/burgerCm";
+import CartCheckPay from "./component/CartCheckPay";
 import { CartProvider } from "./context/CartContext";
 import { useState, useEffect } from "react";
-import NavBarContainer from "./compotnets/NavBarContainer";
+import NavBarContainer from "./component/NavBarContainer";
 import React from "react";
 
 function App() {
@@ -18,7 +16,6 @@ function App() {
     const handleResize = () => {
       setTabletSize(window.innerWidth < 960 ? true : false);
     };
-    console.log("window.innerWidth " + window.innerWidth);
 
     window.addEventListener("resize", handleResize);
 

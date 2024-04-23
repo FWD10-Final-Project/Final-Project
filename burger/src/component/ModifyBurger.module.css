@@ -1,0 +1,224 @@
+.container {
+  display: flex;
+  margin: 17px;
+  width: 100%;
+
+  justify-content: space-between;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.image {
+  width: 400px;
+  margin: 20px 20px;
+}
+
+.left {
+  margin-top: 37px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ingredient,
+.qty {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 20px;
+  width: 100%;
+}
+
+.ingredientName,
+.qtyName {
+  font-weight: bold;
+}
+
+.ingredientBtn,
+.qtyBtn {
+  display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-self: center;
+  align-items: center;
+  padding: 2% 2% 2% 2%;
+  flex-direction: row;
+  border-radius: 40px;
+  border: #ebebeb 0.5px solid;
+}
+
+.abjustBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 0;
+  width: 33px;
+  height: 33px;
+  border-radius: 8px;
+  background-color: unset;
+  color: #ffa826;
+  font-size: 20pt;
+  padding: unset;
+}
+
+.abjustBtn:hover {
+  background-color: #ebebeb;
+  border-radius: 40px;
+}
+
+.abjustBtn:active {
+  background-color: #c6c6c6;
+  border-radius: 40px;
+}
+
+.option {
+  width: 30%;
+  text-align: center;
+}
+
+button {
+  background-color: #ffa826;
+  cursor: pointer;
+}
+
+.price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  color: #ffa826;
+  font-weight: bolder;
+  font-size: x-large;
+}
+
+.cart {
+}
+
+.priceName {
+  font-size: medium;
+  font-weight: bold;
+  color: black;
+}
+
+.cart {
+  width: 150px;
+  height: 30px;
+  background-color: #ffa826;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.backBtn:active,
+.cart:active,
+button:active {
+  background-color: #fdc878;
+}
+
+.backBtn {
+  width: fit-content;
+  background-color: #ffa826;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.backlogo {
+  height: 30px;
+  padding: 10px;
+}
+
+.backContainer {
+  display: flex;
+}
+
+.backBtn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 932px) {
+}
+
+@media screen and (max-width: 800px) {
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 85%;
+  }
+
+  .backContainer {
+    margin-top: 60px;
+  }
+
+  .image {
+    width: 90%;
+  }
+
+  .left {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: unset;
+  }
+
+  .qty,
+  .ingredient {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px 1px rgba(0, 0, 0, 0.15);
+    margin: 15px 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .qtyName,
+  .ingredientName {
+    width: 30%;
+    text-align: center;
+    font-size: large;
+  }
+
+  .qtyBtn,
+  .ingredientBtn {
+    width: 50%;
+    border: unset;
+  }
+
+  .abjustBtn {
+    background-color: #ffa826;
+    color: black;
+    font-size: medium;
+  }
+
+  .abjustBtn:hover,
+  .abjustBtn:active {
+    border-radius: 8px;
+    background-color: #fac575;
+  }
+
+  .option {
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: large;
+  }
+
+  .cart {
+    width: 70%;
+    border-radius: 15px;
+    box-shadow: 6px 6px 10px 1px rgba(0, 0, 0, 0.15);
+  }
+}
